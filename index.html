@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="Azza Rojbi">
+  <meta name="description" content="Calendar Web App">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>Calendar App</h1>
+
+    <!-- Calendar -->  
+    <div class="calendar-wrapper">
+      <div class="calendar-header">
+        <button type="button" class="month-btn" id="month-prev"><i class="fas fa-chevron-circle-left"></i></button>
+        <button type="button" class="month-btn" id="month-next"><i class="fas fa-chevron-circle-right"></i></button>
+        <h3 class="month-header"></h3>
+      </div>
+
+      <div class="day-headers">
+        <div class="row">
+          <div class="col">Sunday</div>
+          <div class="col">Monday</div>
+          <div class="col">Tuesday</div>
+          <div class="col">Wednesday</div>
+          <div class="col">Thursday</div>
+          <div class="col">Friday</div>
+          <div class="col">Saturday</div>
+        </div>
+      </div>
+
+      <div class="days-content">
+        <!-- days content will be generated here -->
+      </div>
+
+    </div><!-- end .calendar-wrapper -->
+
+  </div><!-- end .container -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
